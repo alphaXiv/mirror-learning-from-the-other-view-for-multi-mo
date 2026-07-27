@@ -194,6 +194,9 @@ def teacher_scan(
         elif method == "fixed_text":
             predictions = {"text": predict(model, processor, problem, "text", cfg, device)[0]}
             selected = "text"
+        elif method == "fixed_image":
+            predictions = {"image": predict(model, processor, problem, "image", cfg, device)[0]}
+            selected = "image"
         else:
             predictions = {
                 view: predict(model, processor, problem, view, cfg, device)[0] for view in VIEWS
@@ -291,7 +294,7 @@ def train_lora(
     local_samples = samples[rank::world]
     accum = int(cfg["gradient_accumulation"])
     coefficient = float(cfg["reverse_kl_coefficient"])
-    use_rkl = str(cfg["method"]) in {"mirror", "fixed_combined", "fixed_text"}
+    use_rkl = str(cfg["method"]) in {"mirror", "fixed_combined", "fixed_text", "fixed_image"}
     trajectory: list[dict[str, float | int]] = []
     global_micro = 0
     optimizer_steps = 0
@@ -455,4 +458,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
