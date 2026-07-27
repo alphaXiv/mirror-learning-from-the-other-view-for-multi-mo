@@ -1,5 +1,5 @@
 {
-  "method": "baseline",
+  "method": "sft",
   "seed": 17,
   "model": "Qwen/Qwen3-VL-4B-Instruct",
   "train_problems": 128,
@@ -14,4 +14,3 @@
   "max_new_tokens": 32,
   "image_max_side": 512
 }
-
