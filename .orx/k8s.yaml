@@ -1,0 +1,30 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: mirror-{{ORX_RUN}}
+spec:
+  activeDeadlineSeconds: 36000
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: experiment
+          image: nvcr.io/nvidia/pytorch:25.06-py3
+          command: ["bash", "-c", "$ORX_SCRIPT"]
+          resources:
+            requests:
+              nvidia.com/gpu: "4"
+              cpu: "32"
+              memory: "160Gi"
+            limits:
+              nvidia.com/gpu: "4"
+              memory: "220Gi"
+          env:
+            - name: HF_HOME
+              value: /tmp/huggingface
+            - name: TOKENIZERS_PARALLELISM
+              value: "false"
+            - name: PYTHONUNBUFFERED
+              value: "1"
+

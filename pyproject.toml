@@ -1,0 +1,9 @@
+[project]
+name = "mirror-geometry3k-reproduction"
+version = "0.1.0"
+description = "A bounded reproduction of MIRROR on paired Geometry3K views"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+
