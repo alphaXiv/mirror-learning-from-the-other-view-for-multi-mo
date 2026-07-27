@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="The MIRROR advantage changes sign across matched seeds">
+<rect width="100%" height="100%" fill="#FFFFFF" rx="14"/>
+<text x="54" y="48" font-family="Inter,system-ui,sans-serif" font-size="24" font-weight="700" fill="#18202A">The MIRROR advantage changes sign across matched seeds</text>
+<text x="54" y="75" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#637083">Mean exact-answer accuracy over text, diagram, and combined views</text>
+<line x1="80" y1="415.0" x2="840" y2="415.0" stroke="#DCE3EA"/>
+<text x="68" y="420.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">0%</text>
+<line x1="80" y1="355.0" x2="840" y2="355.0" stroke="#DCE3EA"/>
+<text x="68" y="360.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">11%</text>
+<line x1="80" y1="295.0" x2="840" y2="295.0" stroke="#DCE3EA"/>
+<text x="68" y="300.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">22%</text>
+<line x1="80" y1="235.0" x2="840" y2="235.0" stroke="#DCE3EA"/>
+<text x="68" y="240.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">33%</text>
+<line x1="80" y1="175.0" x2="840" y2="175.0" stroke="#DCE3EA"/>
+<text x="68" y="180.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">44%</text>
+<line x1="80" y1="115.0" x2="840" y2="115.0" stroke="#DCE3EA"/>
+<text x="68" y="120.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">55%</text>
+<text x="206.66666666666669" y="442" text-anchor="middle" font-family="system-ui" font-size="13" fill="#18202A">Seed 17</text>
+<rect x="129.7" y="174.5" width="46" height="240.5" rx="4" fill="#2F6FED"/>
+<text x="152.7" y="167.5" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">44.1</text>
+<rect x="183.7" y="168.8" width="46" height="246.2" rx="4" fill="#1B9E77"/>
+<text x="206.7" y="161.8" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">45.1</text>
+<rect x="237.7" y="166.9" width="46" height="248.1" rx="4" fill="#E07A2D"/>
+<text x="260.7" y="159.9" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">45.5</text>
+<text x="460.0" y="442" text-anchor="middle" font-family="system-ui" font-size="13" fill="#18202A">Seed 29</text>
+<rect x="383.0" y="189.6" width="46" height="225.4" rx="4" fill="#2F6FED"/>
+<text x="406.0" y="182.6" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">41.3</text>
+<rect x="437.0" y="195.3" width="46" height="219.7" rx="4" fill="#1B9E77"/>
+<text x="460.0" y="188.3" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">40.3</text>
+<rect x="491.0" y="189.6" width="46" height="225.4" rx="4" fill="#E07A2D"/>
+<text x="514.0" y="182.6" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">41.3</text>
+<text x="713.3333333333334" y="442" text-anchor="middle" font-family="system-ui" font-size="13" fill="#18202A">Seed 41</text>
+<rect x="636.3" y="246.4" width="46" height="168.6" rx="4" fill="#2F6FED"/>
+<text x="659.3" y="239.4" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">30.9</text>
+<rect x="690.3" y="244.5" width="46" height="170.5" rx="4" fill="#1B9E77"/>
+<text x="713.3" y="237.5" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">31.2</text>
+<rect x="744.3" y="246.4" width="46" height="168.6" rx="4" fill="#E07A2D"/>
+<text x="767.3" y="239.4" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">30.9</text>
+<rect x="80" y="92" width="13" height="13" rx="2" fill="#2F6FED"/>
+<text x="99" y="103" font-family="system-ui" font-size="12" fill="#18202A">Matched SFT</text>
+<rect x="225" y="92" width="13" height="13" rx="2" fill="#1B9E77"/>
+<text x="244" y="103" font-family="system-ui" font-size="12" fill="#18202A">Adaptive MIRROR</text>
+<rect x="370" y="92" width="13" height="13" rx="2" fill="#E07A2D"/>
+<text x="389" y="103" font-family="system-ui" font-size="12" fill="#18202A">No reciprocal</text>
+<text x="80" y="487" font-family="system-ui" font-size="12" fill="#637083">MIRROR − SFT: +1.04, −1.04, +0.35 percentage points; average +0.12 points.</text>
+</svg>

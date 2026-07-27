@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-label="Equivalent views expose complementary failures">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="48" y="48" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#172033">Equivalent views expose complementary failures</text>
+<text x="48" y="73" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">Fresh Qwen3-VL-4B-Instruct baseline, held-out Geometry3K n=96</text>
+<line x1="250.0" y1="105" x2="250.0" y2="440" stroke="#E6EAF0"/>
+<text x="250.0" y="465" text-anchor="middle" font-family="Inter,Arial" font-size="12" fill="#667085">0%</text>
+<line x1="397.5" y1="105" x2="397.5" y2="440" stroke="#E6EAF0"/>
+<text x="397.5" y="465" text-anchor="middle" font-family="Inter,Arial" font-size="12" fill="#667085">20%</text>
+<line x1="545.0" y1="105" x2="545.0" y2="440" stroke="#E6EAF0"/>
+<text x="545.0" y="465" text-anchor="middle" font-family="Inter,Arial" font-size="12" fill="#667085">40%</text>
+<line x1="692.5" y1="105" x2="692.5" y2="440" stroke="#E6EAF0"/>
+<text x="692.5" y="465" text-anchor="middle" font-family="Inter,Arial" font-size="12" fill="#667085">60%</text>
+<line x1="840.0" y1="105" x2="840.0" y2="440" stroke="#E6EAF0"/>
+<text x="840.0" y="465" text-anchor="middle" font-family="Inter,Arial" font-size="12" fill="#667085">80%</text>
+<text x="236" y="142" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#172033">Text accuracy</text>
+<rect x="250" y="122" width="122.9" height="30" rx="5" fill="#356AE6"/>
+<text x="382.9" y="142" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#172033">16.7%</text>
+<text x="236" y="206" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#172033">Diagram accuracy</text>
+<rect x="250" y="186" width="107.6" height="30" rx="5" fill="#E8872D"/>
+<text x="367.6" y="206" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#172033">14.6%</text>
+<text x="236" y="270" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#172033">Combined accuracy</text>
+<rect x="250" y="250" width="161.3" height="30" rx="5" fill="#7756C7"/>
+<text x="421.3" y="270" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#172033">21.9%</text>
+<text x="236" y="334" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#172033">Any view correct</text>
+<rect x="250" y="314" width="253.5" height="30" rx="5" fill="#168A78"/>
+<text x="513.5" y="334" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#172033">34.4%</text>
+<text x="236" y="398" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#172033">All views correct</text>
+<rect x="250" y="378" width="38.4" height="30" rx="5" fill="#168A78"/>
+<text x="298.4" y="398" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#172033">5.2%</text>
+<text x="236" y="462" text-anchor="end" font-family="Inter,Arial" font-size="14" fill="#172033">Disagreement</text>
+<rect x="250" y="442" width="460.9" height="30" rx="5" fill="#C84A55"/>
+<text x="720.9" y="462" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#172033">62.5%</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Adaptive teachers narrowly lead fixed teachers">
+<rect width="100%" height="100%" fill="#FFFFFF" rx="14"/>
+<text x="54" y="48" font-family="Inter,system-ui,sans-serif" font-size="24" font-weight="700" fill="#18202A">Adaptive teachers narrowly lead fixed teachers</text>
+<text x="54" y="75" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#637083">Seed 17; same examples, optimizer steps, LoRA rank, and evaluation set</text>
+<line x1="80" y1="415.0" x2="840" y2="415.0" stroke="#DCE3EA"/>
+<text x="68" y="420.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">0%</text>
+<line x1="80" y1="355.0" x2="840" y2="355.0" stroke="#DCE3EA"/>
+<text x="68" y="360.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">11%</text>
+<line x1="80" y1="295.0" x2="840" y2="295.0" stroke="#DCE3EA"/>
+<text x="68" y="300.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">22%</text>
+<line x1="80" y1="235.0" x2="840" y2="235.0" stroke="#DCE3EA"/>
+<text x="68" y="240.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">33%</text>
+<line x1="80" y1="175.0" x2="840" y2="175.0" stroke="#DCE3EA"/>
+<text x="68" y="180.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">44%</text>
+<line x1="80" y1="115.0" x2="840" y2="115.0" stroke="#DCE3EA"/>
+<text x="68" y="120.0" text-anchor="end" font-family="system-ui" font-size="12" fill="#637083">55%</text>
+<text x="175.0" y="442" text-anchor="middle" font-family="system-ui" font-size="13" fill="#18202A">Adaptive</text>
+<rect x="125.0" y="168.8" width="46" height="246.2" rx="4" fill="#7E57C2"/>
+<text x="148.0" y="161.8" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">45.1</text>
+<rect x="179.0" y="227.5" width="46" height="187.5" rx="4" fill="#1B9E77"/>
+<text x="202.0" y="220.5" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">34.4</text>
+<text x="365.0" y="442" text-anchor="middle" font-family="system-ui" font-size="13" fill="#18202A">Fixed combined</text>
+<rect x="315.0" y="170.7" width="46" height="244.3" rx="4" fill="#7E57C2"/>
+<text x="338.0" y="163.7" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">44.8</text>
+<rect x="369.0" y="233.2" width="46" height="181.8" rx="4" fill="#1B9E77"/>
+<text x="392.0" y="226.2" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">33.3</text>
+<text x="555.0" y="442" text-anchor="middle" font-family="system-ui" font-size="13" fill="#18202A">Fixed text</text>
+<rect x="505.0" y="172.6" width="46" height="242.4" rx="4" fill="#7E57C2"/>
+<text x="528.0" y="165.6" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">44.4</text>
+<rect x="559.0" y="227.5" width="46" height="187.5" rx="4" fill="#1B9E77"/>
+<text x="582.0" y="220.5" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">34.4</text>
+<text x="745.0" y="442" text-anchor="middle" font-family="system-ui" font-size="13" fill="#18202A">Fixed image</text>
+<rect x="695.0" y="172.6" width="46" height="242.4" rx="4" fill="#7E57C2"/>
+<text x="718.0" y="165.6" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">44.4</text>
+<rect x="749.0" y="238.9" width="46" height="176.1" rx="4" fill="#1B9E77"/>
+<text x="772.0" y="231.9" text-anchor="middle" font-family="system-ui" font-size="11" fill="#18202A">32.3</text>
+<rect x="80" y="92" width="13" height="13" rx="2" fill="#7E57C2"/>
+<text x="99" y="103" font-family="system-ui" font-size="12" fill="#18202A">Mean accuracy</text>
+<rect x="225" y="92" width="13" height="13" rx="2" fill="#1B9E77"/>
+<text x="244" y="103" font-family="system-ui" font-size="12" fill="#18202A">All views correct</text>
+<text x="80" y="487" font-family="system-ui" font-size="12" fill="#637083">Adaptive selection used text/image/combined teachers on 32.8%/32.8%/34.4% of training problems.</text>
+</svg>

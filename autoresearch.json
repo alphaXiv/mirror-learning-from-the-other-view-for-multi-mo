@@ -1,0 +1,2 @@
+{"schemaVersion":1,"paperId":"2607.21552","title":"MIRROR on public paired geometry views","description":"View disagreement reproduced strongly, while reciprocal training showed coefficient-sensitive but not seed-robust gains over matched supervision.","verdict":"partially-reproduced","reportPath":"reports/mirror-geometry3k/report.md","notebookPath":"notebooks/mirror_reproduction.py","compute":{"backend":"kubernetes","gpuModel":"NVIDIA RTX PRO 6000 Blackwell","gpuCount":16,"wallHours":0.3121}}
+

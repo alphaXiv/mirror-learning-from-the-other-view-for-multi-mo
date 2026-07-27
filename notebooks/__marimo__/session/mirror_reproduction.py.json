@@ -1,0 +1,126 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.14",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "6390090352d0342a93e696c0bcd9d5a8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"mirror-on-public-paired-geometry-views\">MIRROR on public paired geometry views</h1>\n<span class=\"paragraph\">A vision-language model can see the same geometry problem as words, a diagram,\nor both\u2014and answer differently. MIRROR tries to turn that weakness into a\nteaching signal by letting the model's strongest view guide its weaker views.</span>\n<span class=\"paragraph\"><strong>Verdict: partially reproduced.</strong> The baseline disagreed across views on\n<strong>62.5%</strong> of held-out problems, clearly confirming the diagnosis. Default\nreciprocal training did not reliably beat matched supervision across three\nseeds; a stronger reciprocal weight helped at seed 17 and tied the matched\ncontrol at seed 29.</span>\n<span class=\"paragraph\">This notebook embeds the completed evidence. It does <strong>not</strong> rerun the expensive\nmodel experiments and works directly in Molab without repository-relative data.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "f50ab0d5b65de5333a7f4091cebce637",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "9effb66a27015c9bfcd1375a56161c55",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<svg viewBox=\"0 0 840 430\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mean accuracy by seed\"><rect width=\"840\" height=\"430\" fill=\"white\"/><text x=\"35\" y=\"35\" font-family=\"system-ui\" font-size=\"21\" font-weight=\"700\" fill=\"#18202A\">The default MIRROR advantage changes sign</text><text x=\"35\" y=\"59\" font-family=\"system-ui\" font-size=\"13\" fill=\"#637083\">Mean held-out accuracy across text, diagram, and combined views</text><line x1=\"70\" y1=\"350.0\" x2=\"815\" y2=\"350.0\" stroke=\"#E1E6EC\"/><text x=\"62\" y=\"354.0\" text-anchor=\"end\" font-family=\"system-ui\" font-size=\"11\" fill=\"#637083\">0%</text><line x1=\"70\" y1=\"308.3333333333333\" x2=\"815\" y2=\"308.3333333333333\" stroke=\"#E1E6EC\"/><text x=\"62\" y=\"312.3333333333333\" text-anchor=\"end\" font-family=\"system-ui\" font-size=\"11\" fill=\"#637083\">10%</text><line x1=\"70\" y1=\"266.6666666666667\" x2=\"815\" y2=\"266.6666666666667\" stroke=\"#E1E6EC\"/><text x=\"62\" y=\"270.6666666666667\" text-anchor=\"end\" font-family=\"system-ui\" font-size=\"11\" fill=\"#637083\">20%</text><line x1=\"70\" y1=\"225.0\" x2=\"815\" y2=\"225.0\" stroke=\"#E1E6EC\"/><text x=\"62\" y=\"229.0\" text-anchor=\"end\" font-family=\"system-ui\" font-size=\"11\" fill=\"#637083\">30%</text><line x1=\"70\" y1=\"183.33333333333334\" x2=\"815\" y2=\"183.33333333333334\" stroke=\"#E1E6EC\"/><text x=\"62\" y=\"187.33333333333334\" text-anchor=\"end\" font-family=\"system-ui\" font-size=\"11\" fill=\"#637083\">40%</text><line x1=\"70\" y1=\"141.66666666666666\" x2=\"815\" y2=\"141.66666666666666\" stroke=\"#E1E6EC\"/><text x=\"62\" y=\"145.66666666666666\" text-anchor=\"end\" font-family=\"system-ui\" font-size=\"11\" fill=\"#637083\">50%</text><line x1=\"70\" y1=\"100.0\" x2=\"815\" y2=\"100.0\" stroke=\"#E1E6EC\"/><text x=\"62\" y=\"104.0\" text-anchor=\"end\" font-family=\"system-ui\" font-size=\"11\" fill=\"#637083\">60%</text><rect x=\"101\" y=\"166.25\" width=\"40\" height=\"183.75\" rx=\"4\" fill=\"#2F6FED\"/><text x=\"121\" y=\"160.25\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">44.1</text><rect x=\"155\" y=\"161.91666666666666\" width=\"40\" height=\"188.08333333333334\" rx=\"4\" fill=\"#1B9E77\"/><text x=\"175\" y=\"155.91666666666666\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">45.1</text><rect x=\"209\" y=\"160.45833333333334\" width=\"40\" height=\"189.54166666666666\" rx=\"4\" fill=\"#E07A2D\"/><text x=\"229\" y=\"154.45833333333334\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">45.5</text><text x=\"175\" y=\"377\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"13\" fill=\"#18202A\">Seed 17</text><rect x=\"346\" y=\"177.83333333333334\" width=\"40\" height=\"172.16666666666666\" rx=\"4\" fill=\"#2F6FED\"/><text x=\"366\" y=\"171.83333333333334\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">41.3</text><rect x=\"400\" y=\"182.16666666666666\" width=\"40\" height=\"167.83333333333334\" rx=\"4\" fill=\"#1B9E77\"/><text x=\"420\" y=\"176.16666666666666\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">40.3</text><rect x=\"454\" y=\"177.83333333333334\" width=\"40\" height=\"172.16666666666666\" rx=\"4\" fill=\"#E07A2D\"/><text x=\"474\" y=\"171.83333333333334\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">41.3</text><text x=\"420\" y=\"377\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"13\" fill=\"#18202A\">Seed 29</text><rect x=\"591\" y=\"221.25\" width=\"40\" height=\"128.75\" rx=\"4\" fill=\"#2F6FED\"/><text x=\"611\" y=\"215.25\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">30.9</text><rect x=\"645\" y=\"219.79166666666666\" width=\"40\" height=\"130.20833333333334\" rx=\"4\" fill=\"#1B9E77\"/><text x=\"665\" y=\"213.79166666666666\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">31.2</text><rect x=\"699\" y=\"221.25\" width=\"40\" height=\"128.75\" rx=\"4\" fill=\"#E07A2D\"/><text x=\"719\" y=\"215.25\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"10\" fill=\"#18202A\">30.9</text><text x=\"665\" y=\"377\" text-anchor=\"middle\" font-family=\"system-ui\" font-size=\"13\" fill=\"#18202A\">Seed 41</text><rect x=\"115\" y=\"398\" width=\"12\" height=\"12\" rx=\"2\" fill=\"#2F6FED\"/><text x=\"133\" y=\"408\" font-family=\"system-ui\" font-size=\"11\" fill=\"#18202A\">Matched SFT</text><rect x=\"325\" y=\"398\" width=\"12\" height=\"12\" rx=\"2\" fill=\"#1B9E77\"/><text x=\"343\" y=\"408\" font-family=\"system-ui\" font-size=\"11\" fill=\"#18202A\">Adaptive \u03bb=.01</text><rect x=\"535\" y=\"398\" width=\"12\" height=\"12\" rx=\"2\" fill=\"#E07A2D\"/><text x=\"553\" y=\"408\" font-family=\"system-ui\" font-size=\"11\" fill=\"#18202A\">No reciprocal</text></svg>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "968e558589d21917e61b24464cb76f6a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='e6381596-2393-ce16-2bbc-dbf6e449cec6'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;measure&#92;&quot;:&#92;&quot;Text accuracy&#92;&quot;,&#92;&quot;percent&#92;&quot;:16.67},{&#92;&quot;measure&#92;&quot;:&#92;&quot;Diagram accuracy&#92;&quot;,&#92;&quot;percent&#92;&quot;:14.58},{&#92;&quot;measure&#92;&quot;:&#92;&quot;Combined accuracy&#92;&quot;,&#92;&quot;percent&#92;&quot;:21.88},{&#92;&quot;measure&#92;&quot;:&#92;&quot;Any view correct&#92;&quot;,&#92;&quot;percent&#92;&quot;:34.38},{&#92;&quot;measure&#92;&quot;:&#92;&quot;All views correct&#92;&quot;,&#92;&quot;percent&#92;&quot;:5.21},{&#92;&quot;measure&#92;&quot;:&#92;&quot;Disagreement&#92;&quot;,&#92;&quot;percent&#92;&quot;:62.5}]&quot;' data-total-rows='6' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='6' data-show-filters='false' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "5dce0a3a2267c8108848912bf48cbc7d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"2-what-exactly-was-trained\">2. What exactly was trained?</h2>\n<span class=\"paragraph\">The formal benchmark was the MIT-licensed Geometry3K/InterGPS official split:\n128 train problems and 96 held-out problems. Each problem became three paired\ninputs:</span>\n<ol>\n<li><strong>Text:</strong> question plus released text and diagram logic forms.</li>\n<li><strong>Diagram:</strong> released diagram plus question.</li>\n<li><strong>Combined:</strong> diagram, question, and logic forms.</li>\n</ol>\n<span class=\"paragraph\">Qwen3-VL-4B-Instruct received 16 matched LoRA optimizer updates. The ordinary\ncontrol used answer supervision under the two restricted views. The bounded\nMIRROR approximation selected the best view by exact-answer reward and applied\ntoken-level reverse KL on the same gold answer trajectory.</span>\n<span class=\"paragraph\">This is not the paper's full algorithm: supervised LoRA replaces 16-rollout\nGRPO, and a frozen base teacher replaces an online exponential-moving-average\nteacher. Those substitutions make this a mechanism probe, not a direct estimate\nof the paper's ODA-Data scores.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "27a1ae679feaba99f67531082a448c6d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Xref-0' random-id='e7b8aa0a-4ca6-bc0c-36d9-693b27b88566'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;\u03bb&#92;&quot;:0.0,&#92;&quot;Mean accuracy&#92;&quot;:45.49,&#92;&quot;All views correct&#92;&quot;:34.38},{&#92;&quot;\u03bb&#92;&quot;:0.001,&#92;&quot;Mean accuracy&#92;&quot;:43.4,&#92;&quot;All views correct&#92;&quot;:33.33},{&#92;&quot;\u03bb&#92;&quot;:0.005,&#92;&quot;Mean accuracy&#92;&quot;:45.49,&#92;&quot;All views correct&#92;&quot;:33.33},{&#92;&quot;\u03bb&#92;&quot;:0.01,&#92;&quot;Mean accuracy&#92;&quot;:45.14,&#92;&quot;All views correct&#92;&quot;:34.38},{&#92;&quot;\u03bb&#92;&quot;:0.05,&#92;&quot;Mean accuracy&#92;&quot;:46.53,&#92;&quot;All views correct&#92;&quot;:37.5}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='5' data-show-filters='false' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "57b983dce316e89427032eee6f946d5d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='f88df849-4b4e-be95-d07d-d25af571929a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seed&#92;&quot;:17,&#92;&quot;MIRROR \u2212 SFT (points)&#92;&quot;:1.04,&#92;&quot;MIRROR \u2212 no reciprocal (points)&#92;&quot;:-0.35},{&#92;&quot;seed&#92;&quot;:29,&#92;&quot;MIRROR \u2212 SFT (points)&#92;&quot;:-1.04,&#92;&quot;MIRROR \u2212 no reciprocal (points)&#92;&quot;:-1.04},{&#92;&quot;seed&#92;&quot;:41,&#92;&quot;MIRROR \u2212 SFT (points)&#92;&quot;:0.35,&#92;&quot;MIRROR \u2212 no reciprocal (points)&#92;&quot;:0.35}]&quot;' data-total-rows='3' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='3' data-show-filters='false' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "4f1f2456dc4b699229c23dcbe07e4378",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"claim-ledger\">Claim ledger</h2>\n<table>\n<thead>\n<tr>\n<th>Claim</th>\n<th>Assessment in this setup</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Equivalent views expose complementary successes and disagreement</td>\n<td><strong>Aligned</strong></td>\n</tr>\n<tr>\n<td>Reciprocal training improves over ordinary training</td>\n<td><strong>Partially aligned</strong>; tuned \u03bb helps, default is not robust</td>\n</tr>\n<tr>\n<td>Adaptive teachers beat fixed teachers</td>\n<td><strong>Partially aligned</strong>; narrow mean lead, mixed other metrics</td>\n</tr>\n<tr>\n<td>Reverse KL isolates the mechanism</td>\n<td><strong>Inconclusive</strong>; no-loss is competitive</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"compute-and-provenance\">Compute and provenance</h2>\n<span class=\"paragraph\">Every formal result ran through OpenResearch on <strong>Kubernetes</strong> using\n<strong>NVIDIA RTX PRO 6000 Blackwell</strong> GPUs. Jobs used four GPUs each, with a peak\nof <strong>16 concurrently allocated GPUs</strong>. The successful instrumented evidence\nwindow was <strong>0.3121 wall hours</strong>, from 2026-07-27 02:35:27 to\n02:54:10.555 UTC. Early launcher and optional dependency compatibility attempts\nended before scientific execution and are excluded.</span>\n<span class=\"paragraph\">The paper reports 42.5% \u2192 60.7% both-view solvability for MIRROR, versus 53.6%\nfor standard GRPO. Those numbers are context, not a direct comparison: this\nnotebook uses a different public dataset, greedy pass@1, all three views, and\nthe bounded training approximation described above.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

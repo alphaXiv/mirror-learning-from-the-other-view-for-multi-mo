@@ -1,0 +1,112 @@
+{
+  "paperId": "2607.21552",
+  "dataset": "Geometry3K/InterGPS (MIT), official train/validation split",
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "baseline": {
+    "n": 96,
+    "textAccuracy": 0.1666666667,
+    "imageAccuracy": 0.1458333333,
+    "combinedAccuracy": 0.21875,
+    "disagreement": 0.625,
+    "complementarySuccess": 0.2916666667,
+    "allViewCorrect": 0.0520833333,
+    "oracleAnyViewCorrect": 0.34375
+  },
+  "seedComparisons": [
+    {
+      "seed": 17,
+      "sftMeanAccuracy": 0.4409722222,
+      "mirrorMeanAccuracy": 0.4513888889,
+      "noRklMeanAccuracy": 0.4548611111,
+      "sftAgreement": 0.6875,
+      "mirrorAgreement": 0.6875,
+      "noRklAgreement": 0.71875,
+      "sftAllCorrect": 0.3125,
+      "mirrorAllCorrect": 0.34375,
+      "noRklAllCorrect": 0.34375
+    },
+    {
+      "seed": 29,
+      "sftMeanAccuracy": 0.4131944444,
+      "mirrorMeanAccuracy": 0.4027777778,
+      "noRklMeanAccuracy": 0.4131944444,
+      "sftAgreement": 0.5625,
+      "mirrorAgreement": 0.53125,
+      "noRklAgreement": 0.5833333333,
+      "sftAllCorrect": 0.2708333333,
+      "mirrorAllCorrect": 0.2291666667,
+      "noRklAllCorrect": 0.2604166667
+    },
+    {
+      "seed": 41,
+      "sftMeanAccuracy": 0.3090277778,
+      "mirrorMeanAccuracy": 0.3125,
+      "noRklMeanAccuracy": 0.3090277778,
+      "sftAgreement": 0.46875,
+      "mirrorAgreement": 0.4479166667,
+      "noRklAgreement": 0.4791666667,
+      "sftAllCorrect": 0.15625,
+      "mirrorAllCorrect": 0.15625,
+      "noRklAllCorrect": 0.1458333333
+    }
+  ],
+  "teacherSelectionSeed17": {
+    "adaptive": {
+      "meanAccuracy": 0.4513888889,
+      "allCorrect": 0.34375
+    },
+    "fixedCombined": {
+      "meanAccuracy": 0.4479166667,
+      "allCorrect": 0.3333333333
+    },
+    "fixedText": {
+      "meanAccuracy": 0.4444444444,
+      "allCorrect": 0.34375
+    },
+    "fixedImage": {
+      "meanAccuracy": 0.4444444444,
+      "allCorrect": 0.3229166667
+    },
+    "adaptiveTeacherFractions": {
+      "text": 0.328125,
+      "image": 0.328125,
+      "combined": 0.34375
+    }
+  },
+  "klSweepSeed17": [
+    {
+      "lambda": 0.0,
+      "meanAccuracy": 0.4548611111,
+      "allCorrect": 0.34375
+    },
+    {
+      "lambda": 0.001,
+      "meanAccuracy": 0.4340277778,
+      "allCorrect": 0.3333333333
+    },
+    {
+      "lambda": 0.005,
+      "meanAccuracy": 0.4548611111,
+      "allCorrect": 0.3333333333
+    },
+    {
+      "lambda": 0.01,
+      "meanAccuracy": 0.4513888889,
+      "allCorrect": 0.34375
+    },
+    {
+      "lambda": 0.05,
+      "meanAccuracy": 0.4652777778,
+      "allCorrect": 0.375
+    }
+  ],
+  "compute": {
+    "backend": "kubernetes",
+    "gpuModel": "NVIDIA RTX PRO 6000 Blackwell",
+    "peakConcurrentGpuCount": 16,
+    "firstSuccessfulInstrumentedStartUtc": "2026-07-27T02:35:27Z",
+    "lastSuccessfulCompletionUtc": "2026-07-27T02:54:10.555Z",
+    "wallHours": 0.3121
+  }
+}
+
